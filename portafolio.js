@@ -2,7 +2,7 @@ var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
     alt: "Descripción de la imagen",
     title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo"
+    about: "Objeto de enriquecimiento del zoológico"
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
