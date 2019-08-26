@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>THE COOLs</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos genéricos -->
+    <meta name="description" content="Portafolio de Ana Galleguillos y Daniela Quinteros. Podrás ver los proyectos que hemos hecho en semestres anteriores.">
+    <meta name="image" content="media/imagen_representativa.jpg">
+    <!-- Metadatos Twitter -->
+    <meta name="twitter:card" content="Portafolio de Ana y Daniela.">
+    <meta name="twitter:title" content="THE COOLs">
+    <meta name="twitter:description" content="Portafolio de Ana Galleguillos y Daniela Quinteros. Podrás ver los proyectos que hemos hecho en semestres anteriores.">
+    <meta name="twitter:image:src" content="media/imagen_representativa.jpg">
+    <!-- Metadatos Open Graph (Facebook, Pinterest & LinkedIn) -->
+    <meta name="og:title" content="THE COOLs">
+    <meta name="og:description" content="Portafolio de Ana Galleguillos y Daniela Quinteros. Podrás ver los proyectos que hemos hecho en semestres anteriores.">
+    <meta name="og:image" content="imagen_representativa.jpg">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+
+</head>
+
+    <!-- Aquí va el header (logo) -->
+<body>
+    <header>
+      <div>
+        <img src="media/Logo.png" alt="logo en png" style="width:30%">
+      </div>
+        <h2>Portafolio de Ana G y Daniela Q</h2>
+    </header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="media/Banner_xl.webm" type="video/webm">
+        <source src="media/Banner_xl.mp4" type="video/mp4">
+    </video>
+    <main>
+        <section id="equipo">
+            <h3>Quiénes somos</h3>
+            <div class="integrante">
+                <h4>DANIELA QUINTEROS</h4>
+                <address><a href="mailto:dfquinteros@uc.cl">dfquinteros@uc.cl</a></address>
+                <blockquote>It's through mistakes that you actually can grow. You have to get bad in order to get good.<cite>Paula Scher</cite></blockquote>
+            </div>
+            <div class="integrante">
+                <h4>ANA GALLEGUILLOS</h4>
+                <address><a href="mailto:abgalleguillos@uc.cl">abgalleguillos@uc.cl</a></address>
+                <blockquote>It took me a few seconds to draw it, but it took me 34 years to learn how to draw it in a few seconds.<cite>Paula Scher</cite></blockquote>
+            </div>
+        </section>
+        <section id="portafolio">
+            <h3>Nuestros trabajos</h3>
+            <!--acá se colocan y organizan las cosas con programación-->
+        </section>
+    </main>
+    <footer>
+      <div>
+        <img src="media/logo_negro.png" alt="logo en png" style="width:15%">
+      </div>
+        <p>Síguenos en <img src="media/icon_insta.png" alt="logo en png" style="width:1.3%"> </p>
+        <p><a href="https://www.instagram.com/ana.galleguillos/?hl=es-la">Ana Galleguillos</a> | <a href="https://www.instagram.com/felinoplaneador/?hl=es-la">Daniela Quinteros</a></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
